@@ -1,7 +1,6 @@
 # Azure Zero Trust Security Architecture
 
 A learning project demonstrating Zero Trust security principles using Azure services.
-🔒🛡️✅ 🚀
 
 ## 🚀 Architecture
 
