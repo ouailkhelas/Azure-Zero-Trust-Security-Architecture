@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "resources": [],
+  "outputs": {
+    "deploymentInfo": {
+      "type": "object",
+      "value": {
+        "message": "Zero Trust Security Architecture Deployed Successfully",
+        "resourcesDeployed": [
+          "Storage Account with HTTPS only and network restrictions",
+          "Virtual Network with NSG rules (HTTPS only, deny inbound)",
+          "Key Vault with RBAC enabled and network restrictions",
+          "Secure networking with service endpoints"
+        ],
+        "nextSteps": [
+          "Enable MFA in Entra ID",
+          "Configure Conditional Access policies",
+          "Assign RBAC roles to users/groups",
+          "Configure Key Vault access policies",
+          "Test user access with MFA"
+        ]
+      }
+    }
+  }
+}

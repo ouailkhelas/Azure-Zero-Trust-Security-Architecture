@@ -1,0 +1,37 @@
+# ARM Template files
+*.parameters.json.bak
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Logs
+*.log
+logs/
+
+# Secrets
+secrets/
+credentials/
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Cloud Shell artifacts
+clouddrive/
