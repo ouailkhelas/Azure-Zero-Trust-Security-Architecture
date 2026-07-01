@@ -43,19 +43,6 @@ User Authentication & Authorization Flow:
 └─────────────────────┘
 ```
 
-## Key Concepts
-
-| Component | Role | Why? |
-|-----------|------|------|
-| **Entra ID** | Identity provider | Single sign-on & user management |
-| **MFA** | 2nd authentication layer | Prevents credential-only attacks |
-| **Conditional Access** | Policy engine | Enforces access policies |
-| **RBAC** | Permission control | Fine-grained access management |
-| **Key Vault** | Secrets storage | Secure credential management |
-| **Network Security** | Network isolation | Defense in depth |
-
-
-
 ## ✅ Quick Start
 
 ### Step 1: Deploy Infrastructure
